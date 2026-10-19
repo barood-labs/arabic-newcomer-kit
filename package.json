@@ -1,0 +1,13 @@
+{
+  "name": "arabic-newcomer-kit",
+  "version": "1.0.0",
+  "description": "Zero-dependency toolkit for apps and voice assistants that serve Arabic-speaking newcomers: offline prayer times, qibla, Hijri dates, Arabic text normalization, bilingual SSML and a survival phrasebook (EN ⇄ AR).",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "README.md", "LICENSE"],
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/", "demo": "node examples/demo.mjs" },
+  "keywords": ["arabic", "prayer-times", "qibla", "hijri", "ssml", "i18n", "rtl", "bidi", "refugees", "newcomers", "alexa", "mcp", "voice"]
+}
