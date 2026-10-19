@@ -8,6 +8,6 @@
   "files": ["src", "README.md", "LICENSE"],
   "license": "MIT",
   "engines": { "node": ">=20" },
-  "scripts": { "test": "node --test test/", "demo": "node examples/demo.mjs" },
+  "scripts": { "test": "node --test test/*.test.js", "demo": "node examples/demo.mjs" },
   "keywords": ["arabic", "prayer-times", "qibla", "hijri", "ssml", "i18n", "rtl", "bidi", "refugees", "newcomers", "alexa", "mcp", "voice"]
 }
